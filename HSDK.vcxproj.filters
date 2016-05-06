@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Util Vector">
+      <UniqueIdentifier>{b8cd6877-9011-4d5b-80ad-e0565c3119ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Util Vector">
+      <UniqueIdentifier>{1e9aff28-b879-4cf5-ace6-f0ccec5b3b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Client">
+      <UniqueIdentifier>{4f680531-a7c1-40b6-93e5-12b3b1aa1b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Client">
+      <UniqueIdentifier>{036c0434-f652-4b0d-bead-f2d114bc7a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\VT">
+      <UniqueIdentifier>{0307c239-7c06-4473-9db2-d3f78857ed1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Util Netvar">
+      <UniqueIdentifier>{777d9176-b41e-433b-9b01-1aa7574cb5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Util Netvar">
+      <UniqueIdentifier>{b87024ec-2b33-4b25-a311-fddcf5420a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Color">
+      <UniqueIdentifier>{614a9487-9170-4612-81fb-57fe2d437951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Console">
+      <UniqueIdentifier>{30085680-0a28-4768-8b74-7e454f3a61b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Console">
+      <UniqueIdentifier>{a33c554c-9375-4289-9004-cb4f52563f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\CRC">
+      <UniqueIdentifier>{909be959-9fbe-4455-a304-30458f8205d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Engine">
+      <UniqueIdentifier>{b254fe66-702c-43ff-8e3d-5405248219fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Engine">
+      <UniqueIdentifier>{c15ecefb-8b69-41f6-bcca-191ee6fd5958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\EngineTrace">
+      <UniqueIdentifier>{408a4b84-128e-4941-980e-18b205e2f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\EngineTrace">
+      <UniqueIdentifier>{d5e51318-4980-4585-ae55-615f0b15ca96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GlobalVariables">
+      <UniqueIdentifier>{13b976ca-965c-4894-a63a-a40b51508c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GlobalVariables">
+      <UniqueIdentifier>{c5162ba8-1dfe-4e51-82c6-fe286ea060f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GlowObject">
+      <UniqueIdentifier>{afae0664-ec7e-4db0-8bc5-5c7027989e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\InterfaceManager">
+      <UniqueIdentifier>{a36c02c7-ee9d-476b-a780-c7e9a07c9027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\InterfaceManager">
+      <UniqueIdentifier>{549bad6e-e2d0-4836-90a2-36c8c063a210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Input">
+      <UniqueIdentifier>{cd8d4169-4a2f-43f1-9411-7a18218e18d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Buttons">
+      <UniqueIdentifier>{d8631961-0ef1-468e-8b5c-df6b59a865cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Input">
+      <UniqueIdentifier>{e10f7351-b371-4bf7-9ce0-5587ee7029ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Surface">
+      <UniqueIdentifier>{c0637957-6b60-47b6-9c5e-2aa492ae0199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Panel">
+      <UniqueIdentifier>{07d5fbf4-ac5d-407b-9ca0-ad7576861577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Panel">
+      <UniqueIdentifier>{8b0ec34b-c99c-42ad-abee-cb01f914913e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Surface">
+      <UniqueIdentifier>{83f2e0da-cb62-4abe-8dcc-fff9ecfb7a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\CRC">
+      <UniqueIdentifier>{fb0d445b-4cda-4052-bf95-c3f6237194f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\DrawManager">
+      <UniqueIdentifier>{aec1bfb3-052f-4955-9807-29c29d1a74be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\DrawManager">
+      <UniqueIdentifier>{e1365f82-081d-411a-80e5-7ac6a19b7073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\HackMenu">
+      <UniqueIdentifier>{70ac35d8-b167-4d60-918a-80972a4a779f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\HackMenu">
+      <UniqueIdentifier>{4130b9c6-89b6-47bb-9e83-407cb53fa46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\NadeTracer">
+      <UniqueIdentifier>{999aabd5-ecb1-45b1-a4d3-c504e878d173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\NadeTracer">
+      <UniqueIdentifier>{651934a6-4e1f-4725-95fd-1c4c6ff4ac7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\VMTManager">
+      <UniqueIdentifier>{24dae9d1-683d-4d3c-b391-eb3dcf62c596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\XorStr">
+      <UniqueIdentifier>{ac715051-e498-41ac-9cd7-8716195d8ab3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util_Vector.hpp">
+      <Filter>Headerdateien\Util Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClientDll.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMode.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvProp.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvTable.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="VTManager.hpp">
+      <Filter>Headerdateien\VT</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.hpp">
+      <Filter>Headerdateien\Util Netvar</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hpp">
+      <Filter>Headerdateien\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.hpp">
+      <Filter>Headerdateien\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.hpp">
+      <Filter>Headerdateien\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.hpp">
+      <Filter>Headerdateien\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTrace.hpp">
+      <Filter>Headerdateien\EngineTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.hpp">
+      <Filter>Headerdateien\GlobalVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowObjectDefinition.hpp">
+      <Filter>Headerdateien\GlowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceManager.hpp">
+      <Filter>Headerdateien\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="In_Buttons.hpp">
+      <Filter>Headerdateien\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.hpp">
+      <Filter>Headerdateien\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.hpp">
+      <Filter>Headerdateien\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="HSDK.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.hpp">
+      <Filter>Headerdateien\DrawManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HackMenu.hpp">
+      <Filter>Headerdateien\HackMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="NadeTracer.hpp">
+      <Filter>Headerdateien\NadeTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTManager.hpp">
+      <Filter>Headerdateien\VMTManager</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Headerdateien\XorStr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Util_Vector.cpp">
+      <Filter>Quelldateien\Util Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClientDll.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientMode.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvProp.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvTable.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarManager.cpp">
+      <Filter>Quelldateien\Util Netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Quelldateien\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineClient.cpp">
+      <Filter>Quelldateien\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTrace.cpp">
+      <Filter>Quelldateien\EngineTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>Quelldateien\GlobalVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceManager.cpp">
+      <Filter>Quelldateien\InterfaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Quelldateien\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Quelldateien\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC.cpp">
+      <Filter>Quelldateien\CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="HSDK.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Quelldateien\DrawManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HackMenu.cpp">
+      <Filter>Quelldateien\HackMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="NadeTracer.cpp">
+      <Filter>Quelldateien\NadeTracer</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
