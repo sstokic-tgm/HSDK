@@ -104,6 +104,8 @@ void MUtil::getOffsets(DWORD clientDll, DWORD clientDllSize, DWORD engineDll, DW
 	collGrp = netMngr->getOffs(XorStr("CBasePlayer"), XorStr("m_CollisionGroup"));
 
 	rgflCoordinateFrame = collGrp - 0x30;
+	
+	entGlowIndex = flashDur + 0x18;
 
 	if (!this->findLocalPlayer(clientDll, clientDllSize))
 		offsetsComplete = false;
@@ -112,9 +114,6 @@ void MUtil::getOffsets(DWORD clientDll, DWORD clientDllSize, DWORD engineDll, DW
 		offsetsComplete = false;
 
 	if (!this->findOffset(clientDll, clientDllSize, XorStr("\xE8\x00\x00\x00\x00\x83\xC4\x04\xB8\x00\x00\x00\x00\xC3\xCC"), XorStr("x????xxxx????xx"), 9, XorStr("glowObjectBase"), &glowObjectBase, true))
-		offsetsComplete = false;
-
-	if (!this->findOffset(clientDll, clientDllSize, XorStr("\xEB\x03\x0F\x57\xC0\x8B\xB7\x00\x00\x00\x00\xF3\x0F\x11\x45\xE8\xE8"), XorStr("xxxxxxx????xxxxxx"), 7, XorStr("entGlowIndex"), &entGlowIndex))
 		offsetsComplete = false;
 
 	if (!this->findOffset(clientDll, clientDllSize, XorStr("\x89\x15\x00\x00\x00\x00\x8B\x15\x00\x00\x00\x00\xF6\xC2\x03\x74\x03\x83\xCE\x04\xA8\x04\xBF"), XorStr("xx????xx????xxxxxxxxxxx"), 2, XorStr("attackBtn"), &attackBtn, true))
