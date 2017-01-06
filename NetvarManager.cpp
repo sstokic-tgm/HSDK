@@ -12,12 +12,12 @@ namespace NetvarManager
 
 		while (client)
 		{
-			auto recvTable = client->getRecvTable();
+			auto recvTable = client->m_pRecvTable;
 
 			if (recvTable)
-				tables.emplace(std::string(client->getName()), recvTable);
+				tables.emplace(std::string(client->m_pNetworkName), recvTable);
 
-			client = client->getNext();
+			client = client->m_pNext;
 		}
 	}
 
@@ -90,9 +90,9 @@ namespace NetvarManager
 
 	void Manager::dump()
 	{
-		for (Client *client = p_Client->getAll(); client != NULL; client = client->getNext())
+		for (Client *client = p_Client->getAll(); client != NULL; client = client->m_pNext)
 		{
-			auto table = client->getRecvTable();
+			auto table = client->m_pRecvTable;
 			//print("%s", client->getName());
 			this->dumpTable(table, "\t");
 		}
