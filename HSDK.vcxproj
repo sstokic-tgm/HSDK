@@ -176,7 +176,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseClientDll.cpp" />
-    <ClCompile Include="Client.cpp" />
     <ClCompile Include="ClientMode.cpp" />
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="CRC.cpp" />

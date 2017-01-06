@@ -209,9 +209,6 @@
     <ClCompile Include="BaseClientDll.cpp">
       <Filter>Quelldateien\Client</Filter>
     </ClCompile>
-    <ClCompile Include="Client.cpp">
-      <Filter>Quelldateien\Client</Filter>
-    </ClCompile>
     <ClCompile Include="ClientMode.cpp">
       <Filter>Quelldateien\Client</Filter>
     </ClCompile>

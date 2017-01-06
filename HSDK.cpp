@@ -12,7 +12,6 @@ DWORD
 		attackBtn = 0x00,
 		stationary = 0xE9,
 		engPtr = 0x00,
-		viewAechse = 0x00,
 		viewOrigin = 0x00,
 		vecPunch = 0x00,
 		gameRes = 0x00,
@@ -264,115 +263,115 @@ char *MUtil::getWeapName(int idx)
 	switch (idx)
 	{
 	case weapon_none:
-		return XorStr("Unknown");
+		return "Unknown";
 	case weapon_deagle:
-		return XorStr("Desert Eagle");
+		return "Desert Eagle";
 	case weapon_elite:
-		return XorStr("Dual Berettas");
+		return "Dual Berettas";
 	case weapon_fiveseven:
-		return XorStr("Five-SeveN");
+		return "Five-SeveN";
 	case weapon_glock:
-		return XorStr("Glock-18");
+		return "Glock-18";
 	case weapon_ak47:
-		return XorStr("AK-47");
+		return "AK-47";
 	case weapon_aug:
-		return XorStr("AUG");
+		return "AUG";
 	case weapon_awp:
-		return XorStr("AWP");
+		return "AWP";
 	case weapon_famas:
-		return XorStr("FAMAS");
+		return "FAMAS";
 	case weapon_g3sg1:
-		return XorStr("G3SG1");
+		return "G3SG1";
 	case weapon_galilar:
-		return XorStr("Galil AR");
+		return "Galil AR";
 	case weapon_m249:
-		return XorStr("M249");
+		return "M249";
 	case weapon_m4a1:
-		return XorStr("M4A4");
+		return "M4A4";
 	case weapon_mac10:
-		return XorStr("MAC-10");
+		return "MAC-10";
 	case weapon_p90:
-		return XorStr("P90");
+		return "P90";
 	case weapon_ump45:
-		return XorStr("UMP-45");
+		return "UMP-45";
 	case weapon_xm1014:
-		return XorStr("XM1014");
+		return "XM1014";
 	case weapon_bizon:
-		return XorStr("PP-Bizon");
+		return "PP-Bizon";
 	case weapon_mag7:
-		return XorStr("MAG-7");
+		return "MAG-7";
 	case weapon_negev:
-		return XorStr("Negev");
+		return "Negev";
 	case weapon_sawedoff:
-		return XorStr("Sawed-Off");
+		return "Sawed-Off";
 	case weapon_tec9:
-		return XorStr("Tec-9");
+		return "Tec-9";
 	case weapon_taser:
-		return XorStr("Zeus x27");
+		return "Zeus x27";
 	case weapon_hkp2000:
-		return XorStr("P2000");
+		return "P2000";
 	case weapon_mp7:
-		return XorStr("MP7");
+		return "MP7";
 	case weapon_mp9:
-		return XorStr("MP9");
+		return "MP9";
 	case weapon_nova:
-		return XorStr("Nova");
+		return "Nova";
 	case weapon_p250:
-		return XorStr("P250");
+		return "P250";
 	case weapon_scar20:
-		return XorStr("SCAR-20");
+		return "SCAR-20";
 	case weapon_sg553:
-		return XorStr("SG 553");
+		return "SG 553";
 	case weapon_ssg08:
-		return XorStr("SSH 08");
+		return "SSH 08";
 	case weapon_knife:
-		return XorStr("Knife");
+		return "Knife";
 	case weapon_flashbang:
-		return XorStr("Flashbang");
+		return "Flashbang";
 	case weapon_hegrenade:
-		return XorStr("High Explosive Grenade");
+		return "High Explosive Grenade";
 	case weapon_smokegrenade:
-		return XorStr("Smoke Grenade");
+		return "Smoke Grenade";
 	case weapon_molotov:
-		return XorStr("Molotov");
+		return "Molotov";
 	case weapon_decoy:
-		return XorStr("Decoy Grenade");
+		return "Decoy Grenade";
 	case weapon_incgrenade:
-		return XorStr("Incendiary Grenade");
+		return "Incendiary Grenade";
 	case weapon_c4:
-		return XorStr("C4 Explosive");
+		return "C4 Explosive";
 	case weapon_knife_t:
-		return XorStr("Knife");
+		return "Knife";
 	case weapon_m4a1_silencer:
-		return XorStr("M4A1-S");
+		return "M4A1-S";
 	case weapon_usp_silencer:
-		return XorStr("USP-S");
+		return "USP-S";
 	case weapon_cz75a:
-		return XorStr("CZ75-Auto");
+		return "CZ75-Auto";
 	case weapon_revolver:
-		return XorStr("R8 Revolver");
+		return "R8 Revolver";
 	case weapon_knife_bayonet:
-		return XorStr("Bayonet");
+		return "Bayonet";
 	case weapon_knife_flip:
-		return XorStr("Flip Knife");
+		return "Flip Knife";
 	case weapon_knife_gut:
-		return XorStr("Gut Knife");
+		return "Gut Knife";
 	case weapon_knife_karambit:
-		return XorStr("Karambit");
+		return "Karambit";
 	case weapon_knife_m9_bayonet:
-		return XorStr("M9 Bayonet");
+		return "M9 Bayonet";
 	case weapon_knife_tactical:
-		return XorStr("Huntsman Knife");
+		return "Huntsman Knife";
 	case weapon_knife_falchion:
-		return XorStr("Falchion Knife");
+		return "Falchion Knife";
 	case weapon_knife_survival_bowie:
-		return XorStr("Bowie Knife");
+		return "Bowie Knife";
 	case weapon_knife_butterfly:
-		return XorStr("Butterfly Knife");
+		return "Butterfly Knife";
 	case weapon_knife_push:
-		return XorStr("Shadow Daggers");
+		return "Shadow Daggers";
 	default:
-		return XorStr("Unknown");
+		return "Unknown";
 	}
 }
 
@@ -617,7 +616,7 @@ int Entity::getCompWins(int idx)
 std::wstring Entity::getName(int idx)
 {
 	DWORD tmpBase = *(DWORD*)(mUtil->dClientDll + radar);
-	DWORD tmp = *(DWORD*)(tmpBase + 0x50);
+	DWORD tmp = *(DWORD*)(tmpBase + 0x54);
 
 	wchar_t *wcName = (wchar_t*)(tmp + 0x1E0 * idx + 0x24);
 	std::wstring name(wcName);
